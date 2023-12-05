@@ -1,40 +1,38 @@
-*{
-    padding: 0px;
-    margin: 0px;
+* {
+  padding: 0px;
+  margin: 0px;
 }
-html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-}
+
 body {
-    background: rgb(207 207 207);
+  width: 100%;
+  background: url("https://blog.monouso.es/wp-content/uploads/Requisitos-legales-para-montar-tu-hamburgueseri%CC%81a-1024x536.webp")
+    center/cover no-repeat;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+}
+.contenedor {
+  width: 100%;
 }
 h1 {
-    padding: 20px;
-    font-size: 57px;
-    font-weight: 900;
-    letter-spacing: 5px;
-    text-align: center;
+  font-size: 65px;
+  font-weight: 900;
+  letter-spacing: 5px;
+  text-align: right;
+  padding-right: 20px;
+  color: #a36b00;
+  text-shadow: 12px 20px 13px black;
+  text-transform: uppercase;
 }
-button {
-    margin-top: 29vh;
-    text-align: center;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px 38px;
-    border-radius: 11px;
-    border: none;
-    font-size: 17px;
-    font-weight: 700;
-    background: cadetblue;
-}
-p {
-    text-align: center;
-    margin-top: 12px;
-    color: #8d2121d6;
-    font-family: system-ui;
-    letter-spacing: 1px;
-    font-weight: 500;
+.comenzar {
+  padding: 16px 38px;
+  border-radius: 17px;
+  border: none;
+  font-size: 31px;
+  font-weight: 700;
+  background: #005e7b;
+  color: #f3f3f3;
+  box-shadow: 4px 14px 13px rgb(0 0 0 / 93%);
+  display: flex;
+  margin-top: 32vh;
+  margin-left: 160vh;
 }

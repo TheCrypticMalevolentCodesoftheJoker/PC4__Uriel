@@ -7,55 +7,61 @@ html, body {
     margin: 0;
     padding: 0;
 }
-body {
-    background: rgb(207 207 207);
-}
-h2 {
-    text-align: center;
-    color: black;
-    text-transform: capitalize;
-    margin-bottom: 25px;
+.container {
+    background: rgb(39 39 39);
+    width: 100%;
+    height: 100vh;
 }
 main {
     display: flex;
     width: 100%;
-    margin-top: 20px;
     height: 100%;
     justify-content: center;
 }
-aside.informacion-personal ul {
-    list-style: none;
+.ingredientes {
+    background: #181818;
+    width: 30%;
+    box-shadow: 17px 20px 20px rgb(18 18 18 / 50%);
 }
-aside.informacion-personal li {
-    padding: 5px 0px;
-}
-aside.informacion-personal {
-    height: 90vh;
-    padding: 0px 10px;
-    box-shadow: 15px 18px 20px 0px rgb(0 0 0 / 50%);
-}
-section.transaccion {
+.muestra {
     width: 70%;
-    padding: 0px 20px;
-}
-section.transaccion ul {
-    list-style: none;
-}
-section.transaccion li {
-    background: transparent;
-    margin-bottom: 7px;
-    padding: 12px;
-    border-radius: 5px;
-    box-shadow: inset 0px 0px 20px 8px rgb(89 109 153 / 31%);
-    height: 32px;
-    color: #32b938;
-    font-size: 24px;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    color: #ababab;
+    font-size: 31px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
 }
-section.transaccion strong {
-    font-size: 15px;
-    text-transform: capitalize;
-    color: black;
+.lista {
+    padding: 11px 47px;
+}
+li {
+    margin-bottom: 27px;
+    list-style: none;
+    padding: 12px 0px;
+    text-align: center;
+    box-shadow: inset 0px 0px 12px rgb(4 157 209 / 69%);
+    border-radius: 8px;
+    font-size: 20px;
+    color: #a5a5a5;
+}
+.cocinar {
+    padding: 10px 38px;
+    border-radius: 11px;
+    border: none;
+    font-size: 17px;
+    font-weight: 700;
+    background: #006d71;
+    cursor: pointer;
+    margin: auto;
+    display: flex;
+    text-transform: uppercase;
+    color: #f1f1f1;
+}
+.muestra img {
+    width: 27vh;
+    height: 13vh;
+    background-color: transparent;
 }
